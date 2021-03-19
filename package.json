@@ -1,0 +1,28 @@
+{
+  "name": "labombe-api",
+  "version": "1.0.0",
+  "description": "This is a web scraping in flashscore.com",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uelpin/labombe-api.git"
+  },
+  "author": "Uelberte C. Pinheiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uelpin/labombe-api/issues"
+  },
+  "homepage": "https://github.com/uelpin/labombe-api#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {
+    "sucrase": "^3.17.0"
+  }
+}
