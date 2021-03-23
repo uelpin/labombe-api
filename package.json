@@ -20,7 +20,8 @@
   "homepage": "https://github.com/uelpin/labombe-api#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.7"
+    "nodemon": "^2.0.7",
+    "puppeteer": "^8.0.0"
   },
   "devDependencies": {
     "sucrase": "^3.17.0"
